@@ -1,0 +1,15 @@
+img{
+	width:30%;
+	float:left;
+	margin:1.66%;
+}
+body{
+	background-color: grey ; 
+
+}
+h1{
+	color:white;
+}
+h1:hover{
+  color:black;
+}
