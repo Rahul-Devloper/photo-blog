@@ -7,9 +7,17 @@ body{
 	background-color: grey ; 
 
 }
-h1{
+p{
 	color:white;
+	font-family: 'Blinker', sans-serif;
+	margin-left:1.66%;
+	font-size:25px;
+	border-bottom:2px white solid;
+	width:30%;
+	padding-bottom:10px;
+	text-transform:uppercase;
 }
-h1:hover{
-  color:black;
+p:hover{
+	color:black;
+	border-color:black;
 }
