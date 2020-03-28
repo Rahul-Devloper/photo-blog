@@ -10,14 +10,29 @@ body{
 p{
 	color:white;
 	font-family: 'Blinker', sans-serif;
-	margin-left:1.66%;
+	margin-left:3%;
 	font-size:25px;
 	border-bottom:2px white solid;
-	width:30%;
+	width:20%;
 	padding-bottom:10px;
 	text-transform:uppercase;
 }
 p:hover{
 	color:black;
 	border-color:black;
+}
+#myPhoto{
+	animation: slide 10s infinite;
+}
+@keyframes slide{
+	0%{
+		transform : translate3d(0px,0px,0px);
+	}
+	60%{
+		transform : translate3d(800px,0px,0px);
+		opacity: .5;
+	}
+	100%{
+		transform : translate3d(0px,0px,0px);
+	}
 }
